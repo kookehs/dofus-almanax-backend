@@ -1,0 +1,90 @@
+[
+  {
+    "id": 0,
+    "nameId": 631583,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 0,
+    "maxParameterBound": 0
+  },
+  {
+    "id": 1,
+    "nameId": 631577,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 0,
+    "maxParameterBound": 0
+  },
+  {
+    "id": 2,
+    "nameId": 631579,
+    "maxOccurence": 1,
+    "maxParameters": 6,
+    "minParameterBound": 0,
+    "maxParameterBound": 0
+  },
+  {
+    "id": 3,
+    "nameId": 631575,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 1,
+    "maxParameterBound": 445
+  },
+  {
+    "id": 4,
+    "nameId": 631584,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 1,
+    "maxParameterBound": 199
+  },
+  {
+    "id": 5,
+    "nameId": 631578,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 2,
+    "maxParameterBound": 665
+  },
+  {
+    "id": 6,
+    "nameId": 631580,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 1,
+    "maxParameterBound": 7
+  },
+  {
+    "id": 7,
+    "nameId": 631582,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 2,
+    "maxParameterBound": 8
+  },
+  {
+    "id": 8,
+    "nameId": 631585,
+    "maxOccurence": 1,
+    "maxParameters": 3,
+    "minParameterBound": 0,
+    "maxParameterBound": 0
+  },
+  {
+    "id": 9,
+    "nameId": 631576,
+    "maxOccurence": 1,
+    "maxParameters": 3,
+    "minParameterBound": 0,
+    "maxParameterBound": 0
+  },
+  {
+    "id": 10,
+    "nameId": 631581,
+    "maxOccurence": 1,
+    "maxParameters": 1,
+    "minParameterBound": 2,
+    "maxParameterBound": 8
+  }
+]

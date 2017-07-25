@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "duration": 4500,
+    "free": true,
+    "nameId": 672184,
+    "category": 1,
+    "spellLevel": 29064
+  },
+  {
+    "id": 2,
+    "duration": 5000,
+    "free": false,
+    "nameId": 672185,
+    "category": 1,
+    "spellLevel": 29063
+  },
+  {
+    "id": 5,
+    "duration": 5100,
+    "free": false,
+    "nameId": 700918,
+    "category": 1,
+    "spellLevel": 29217
+  },
+  {
+    "id": 6,
+    "duration": 6000,
+    "free": false,
+    "nameId": 700921,
+    "category": 1,
+    "spellLevel": 29218
+  },
+  {
+    "id": 7,
+    "duration": 7200,
+    "free": false,
+    "nameId": 700920,
+    "category": 1,
+    "spellLevel": 29219
+  },
+  {
+    "id": 8,
+    "duration": 7500,
+    "free": false,
+    "nameId": 700919,
+    "category": 1,
+    "spellLevel": 29220
+  }
+]

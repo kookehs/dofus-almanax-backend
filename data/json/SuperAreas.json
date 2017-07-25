@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "nameId": 4629,
+    "worldmapId": 1,
+    "hasWorldMap": true
+  },
+  {
+    "id": 3,
+    "nameId": 4632,
+    "worldmapId": 2,
+    "hasWorldMap": true
+  },
+  {
+    "id": 4,
+    "nameId": 292687,
+    "worldmapId": 0,
+    "hasWorldMap": false
+  },
+  {
+    "id": 5,
+    "nameId": 415839,
+    "worldmapId": 0,
+    "hasWorldMap": false
+  }
+]

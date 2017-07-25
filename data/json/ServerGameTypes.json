@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "selectableByPlayer": true,
+    "nameId": 440016,
+    "rulesId": 724082,
+    "descriptionId": 724092
+  },
+  {
+    "id": 1,
+    "selectableByPlayer": true,
+    "nameId": 440005,
+    "rulesId": 724074,
+    "descriptionId": 724098
+  },
+  {
+    "id": 2,
+    "selectableByPlayer": false,
+    "nameId": 392557,
+    "rulesId": 0,
+    "descriptionId": 0
+  },
+  {
+    "id": 3,
+    "selectableByPlayer": true,
+    "nameId": 209053,
+    "rulesId": 724066,
+    "descriptionId": 0
+  },
+  {
+    "id": 4,
+    "selectableByPlayer": true,
+    "nameId": 439993,
+    "rulesId": 724061,
+    "descriptionId": 724104
+  }
+]

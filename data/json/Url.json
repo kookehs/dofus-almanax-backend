@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "browserId": 1,
+    "url": "http://www.dofus.com/",
+    "param": "null",
+    "method": "GET"
+  },
+  {
+    "id": 4,
+    "browserId": 4,
+    "url": "OpenKrosmaster",
+    "param": "null",
+    "method": "HOOK"
+  }
+]
