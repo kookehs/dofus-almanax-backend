@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"sort"
 )
 
@@ -9,6 +10,7 @@ type Genes interface {
 	Crossover(g Genes)
 	Fitness(g Genes) float64
 	Mutate()
+	String() string
 }
 
 // Population contains information necessary for simulation.
@@ -21,6 +23,34 @@ type Population struct {
 // NewPopulation returns an empty Population with the given target.
 func NewPopulation(t Genes) *Population {
 	return &Population{generation: 0, target: t, members: []Genes{}}
+}
+
+// Add adds the given Genes to the members
+func (p *Population) Add(g Genes) {
+	p.members = append(p.members, g)
+}
+
+// Display prints the generation and each member.
+func (p *Population) Display() {
+	fmt.Printf("Generation: %d\n", p.generation)
+
+	for _, v := range p.members {
+		fmt.Printf("%g - %s\n", v.Fitness(p.target), v.String())
+	}
+}
+
+// Generation simulates a round of selection, crossover, and mutation.
+func (p *Population) Generation() bool {
+	p.Sort()
+	p.Display()
+
+	// TODO: Select
+	// TODO: Crossover
+	// TODO: Mutate
+
+	match := false
+	// TODO: Evaluate fitness of genes
+	return match
 }
 
 // Len returns the number of members.
