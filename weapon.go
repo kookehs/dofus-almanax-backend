@@ -1,0 +1,51 @@
+package main
+
+// Weapon contains various statistics.
+type Weapon struct {
+	apCost                     int
+	appearanceID               int
+	bonusIsSecret              bool
+	castInDiagonal             bool
+	castInLine                 bool
+	castTestLos                bool
+	containerIDs               []int
+	craftXpRatio               int
+	criteria                   string
+	criteriaTarget             string
+	criticalFailureProbability int
+	criticalHitBonus           int
+	criticalHitProbability     int
+	cursed                     bool
+	descriptionID              I18N
+	dropMonsterIDs             []int
+	enhanceable                bool
+	etheral                    bool
+	exchangeable               bool
+	favoriteSubAreas           []int
+	favoriteSubAreasBonus      int
+	hideEffects                bool
+	iconID                     int
+	id                         int
+	isDestructible             bool
+	itemSetID                  int
+	level                      int
+	maxCastPerTurn             int
+	maxRange                   int
+	minRange                   int
+	nameID                     I18N
+	needUseConfirm             bool
+	nonUsableOnAnother         bool
+	nuggetsBySubArea           [][]float64
+	possibleEffects            []Effect
+	price                      float64
+	realWeight                 int
+	recipeIDs                  []int
+	recipeSlots                int
+	resourcesBySubArea         [][]int
+	secretRecipe               bool
+	targetable                 bool
+	twoHanded                  bool
+	typeID                     int
+	usable                     bool
+	useAnimationID             int
+}
