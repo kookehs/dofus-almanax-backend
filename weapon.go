@@ -2,50 +2,50 @@ package main
 
 // Weapon contains various statistics.
 type Weapon struct {
-	apCost                     int
-	appearanceID               int
-	bonusIsSecret              bool
-	castInDiagonal             bool
-	castInLine                 bool
-	castTestLos                bool
-	containerIDs               []int
-	craftXpRatio               int
-	criteria                   string
-	criteriaTarget             string
-	criticalFailureProbability int
-	criticalHitBonus           int
-	criticalHitProbability     int
-	cursed                     bool
-	descriptionID              I18N
-	dropMonsterIDs             []int
-	enhanceable                bool
-	etheral                    bool
-	exchangeable               bool
-	favoriteSubAreas           []int
-	favoriteSubAreasBonus      int
-	hideEffects                bool
-	iconID                     int
-	id                         int
-	isDestructible             bool
-	itemSetID                  int
-	level                      int
-	maxCastPerTurn             int
-	maxRange                   int
-	minRange                   int
-	nameID                     I18N
-	needUseConfirm             bool
-	nonUsableOnAnother         bool
-	nuggetsBySubArea           [][]float64
-	possibleEffects            []Effect
-	price                      float64
-	realWeight                 int
-	recipeIDs                  []int
-	recipeSlots                int
-	resourcesBySubArea         [][]int
-	secretRecipe               bool
-	targetable                 bool
-	twoHanded                  bool
-	typeID                     int
-	usable                     bool
-	useAnimationID             int
+	APCost                     int         `json:"apCost"`
+	AppearanceID               int         `json:"appearanceId"`
+	BonusIsSecret              bool        `json:"bonusIsSecret"`
+	CastInDiagonal             bool        `json:"castInDiagonal"`
+	CastInLine                 bool        `json:"castInLine"`
+	CastTestLos                bool        `json:"castTestLos"`
+	ContainerIDs               []int       `json:"containerIds"`
+	CraftXpRatio               int         `json:"craftXpRatio"`
+	Criteria                   string      `json:"criteria"`
+	CriteriaTarget             string      `json:"criteriaTarget"`
+	CriticalFailureProbability int         `json:"criticalFailureProbability"`
+	CriticalHitBonus           int         `json:"criticalHitBonus"`
+	CriticalHitProbability     int         `json:"criticalHitProbability"`
+	Cursed                     bool        `json:"cursed"`
+	DescriptionID              I18N        `json:"descriptionId"`
+	DropMonsterIDs             []int       `json:"dropMonstersIds"`
+	Enhanceable                bool        `json:"enhanceable"`
+	Etheral                    bool        `json:"etheral"`
+	Exchangeable               bool        `json:"exchangeable"`
+	FavoriteSubAreas           []int       `json:"favoriteSubAreas"`
+	FavoriteSubAreasBonus      int         `json:"favoriteSubAreasBonus"`
+	HideEffects                bool        `json:"hideEffects"`
+	IconID                     int         `json:"iconId"`
+	ID                         int         `json:"id"`
+	IsDestructible             bool        `json:"isDestructible"`
+	ItemSetID                  int         `json:"itemSetId"`
+	Level                      int         `json:"level"`
+	MaxCastPerTurn             int         `json:"maxCastPerTurn"`
+	MaxRange                   int         `json:"range"`
+	MinRange                   int         `json:"minRange"`
+	NameID                     I18N        `json:"nameId"`
+	NeedUseConfirm             bool        `json:"needUseConfirm"`
+	NonUsableOnAnother         bool        `json:"nonUsableOnAnother"`
+	NuggetsBySubArea           [][]float64 `json:"nuggetsBySubarea"`
+	PossibleEffects            []Effect    `json:"possibleEffects"`
+	Price                      float64     `json:"price"`
+	RealWeight                 int         `json:"realWeight"`
+	RecipeIDs                  []int       `json:"recipeIds"`
+	RecipeSlots                int         `json:"recipeSlots"`
+	ResourcesBySubArea         [][]int     `json:"resourcesBySubarea"`
+	SecretRecipe               bool        `json:"secretRecipe"`
+	Targetable                 bool        `json:"targetable"`
+	TwoHanded                  bool        `json:"twoHanded"`
+	TypeID                     int         `json:"typeId"`
+	Usable                     bool        `json:"usable"`
+	UseAnimationID             int         `json:"useAnimationId"`
 }
